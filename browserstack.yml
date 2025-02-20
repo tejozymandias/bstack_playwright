@@ -12,6 +12,7 @@ platforms:
 buildName: WebA11yBuild
 projectName: nespresso-demo
 testObservability: true
+browserstackAutomation: false
 accessibility: true
 debug: true
 consoleLogs: info

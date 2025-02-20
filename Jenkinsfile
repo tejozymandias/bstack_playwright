@@ -12,7 +12,7 @@
              //Enable Reporting
              browserStackReportPublisher 'automate'
          }
-         # ...
+
        }
      }
    }

@@ -33,4 +33,7 @@ test('BStackDemo test checkout flow', async ({ page }) => {
 
   const list = page.locator('.a-fixed-left-grid-inner');
   await expect(list).toHaveCount(2);
+  // let summary = await driver.getAccessibilityResultsSummary();
+  // let criticalIssueCount = summary["issueCountBySeverity"]["critical"];
+  // assert.isTrue(criticalIssueCount < 10, "Critical issue count breached the threshold!");
 });

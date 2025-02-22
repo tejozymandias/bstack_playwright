@@ -9,10 +9,16 @@ platforms:
   #   osVersion: Ventura
   #   browserName: playwright-webkit
   #   browserVersion: latest
-buildName: WebA11yBuild
-projectName: nespresso-demo
+buildName: playwright-browserstack-addToCart
+projectName: a11y-automation-nespresso
 testObservability: true
 browserstackAutomation: true
 accessibility: true
+accessibilityOptions:
+  # includeTagsInTestingScope: ['critical', 'p0'] 
+  # excludeTagsInTestingScope: ['old', 'deprecated'] 
+  advanced:
+    screenCapture: true
+    issueTracker: true
 debug: true
 consoleLogs: info

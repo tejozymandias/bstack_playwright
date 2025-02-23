@@ -8,6 +8,7 @@
                  // add commands to run test
                  // Following are some of the example commands -----
                  git branch: 'main', url: 'https://github.com/tejozymandias/bstack_playwright.git'
+                 sh 'node -v && npm -v'
                  sh 'npm install'
                  sh 'npm run sample-test'
              }
